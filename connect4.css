@@ -7,13 +7,19 @@ body {
 }
 h1 {
   color: white;
+  font-family: 'Sigmar One', cursive;
+  font-size: 50px;
 }
 .header {
   text-align: center;
   margin: auto;
 }
+.custom-header {
+  color: red;
+}
 #board {
-  border: solid 5px #0000ff;
+  border: solid 4px #0000ff;
+  border-radius: 2%;
 }
 #board td {
   width: 75px;
@@ -49,14 +55,15 @@ h1 {
 }
 #restart-button {
   color: white;
+  font-family: 'Sigmar One', cursive;
   margin: 10px auto;
   display: block;
   font-size: 20px;
   background-color: blue;
-  padding: 3px;
+  padding: 5px;
   border-radius: 5px;
-  visibility: visible;
+  visibility: hidden;
 }
 #restart-button:hover {
-  background-color: rgb(216, 51, 10);
+  background-color: red;
 }
